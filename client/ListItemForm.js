@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Lists } from './List';
+import { Lists } from '../imports/Lists';
 
 export default class ListItemForm extends React.Component {
   constructor(props) {

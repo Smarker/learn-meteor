@@ -1,6 +1,6 @@
 import '../imports/Tasks.js';
 
-const Lists = new Mongo.Collection('Lists');
+import { Lists } from '../imports/Lists';
 
 Meteor.publish('Lists', function() {
   console.log(Lists.find({}).fetch());
